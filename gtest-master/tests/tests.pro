@@ -16,53 +16,53 @@ LIBS += -lgcov
 
 
 HEADERS +=  \
-    ../../../inf/task7/lab7/text/_text.h \
-    ../../../inf/task7/lab7/text/text.h \
-    ../../../inf/task7/lab7/common.h \
+    ../../../lab7/text/_text.h \
+    ../../../lab7/text/text.h \
+    ../../../lab7/common.h \
     fibonachi_test.h
 
 SOURCES +=        main.cpp \
-../../../inf/task7/lab7/text/append_line.c \
-    ../../../inf/task7/lab7/text/cd.c \
-    ../../../inf/task7/lab7/text/create_text.c \
-    ../../../inf/task7/lab7/text/cursors.c \
-    ../../../inf/task7/lab7/text/delete_line.c \
-    ../../../inf/task7/lab7/text/i.c \
-    ../../../inf/task7/lab7/text/j.c \
-    ../../../inf/task7/lab7/text/mcb.c \
-    ../../../inf/task7/lab7/text/mp.c \
-    ../../../inf/task7/lab7/text/mplb.c \
-    ../../../inf/task7/lab7/text/mwbb.c \
-    ../../../inf/task7/lab7/text/pp.c \
-    ../../../inf/task7/lab7/text/process_backward.c \
-    ../../../inf/task7/lab7/text/process_even_odd.c \
-    ../../../inf/task7/lab7/text/process_forward.c \
-    ../../../inf/task7/lab7/text/process_forward2.c \
-    ../../../inf/task7/lab7/text/process_forward_extra_option.c \
-    ../../../inf/task7/lab7/text/r1ne.c \
-    ../../../inf/task7/lab7/text/randomic.c \
-    ../../../inf/task7/lab7/text/rc.c \
-    ../../../inf/task7/lab7/text/remove_all.c \
-    ../../../inf/task7/lab7/text/rt.c \
-    ../../../inf/task7/lab7/text/tracer.c \
-    ../../../inf/task7/lab7/text/y.c \
-    ../../../inf/task7/lab7/load.c \
-    ../../../inf/task7/lab7/mle.c \
-    ../../../inf/task7/lab7/move_cursor.c \
-    ../../../inf/task7/lab7/mpweb.c \
-    ../../../inf/task7/lab7/paste.c \
-    ../../../inf/task7/lab7/rn.c \
-    ../../../inf/task7/lab7/save.c \
-    ../../../inf/task7/lab7/show.c \
-    ../../../inf/task7/lab7/showlastnonspace.c \
-    ../../../inf/task7/lab7/showlengths.c \
-    ../../../inf/task7/lab7/shownonempty.c \
-    ../../../inf/task7/lab7/shownum.c \
-    ../../../inf/task7/lab7/showodd.c \
-    ../../../inf/task7/lab7/showrev.c \
-    ../../../inf/task7/lab7/showreveven.c \
-    ../../../inf/task7/lab7/showunderscores.c \
-    ../../../inf/task7/lab7/showupfirst.c \
-    ../../../inf/task7/lab7/showwordbeginnings.c
+../../../lab7/text/append_line.c \
+    ../../../lab7/text/cd.c \
+    ../../../lab7/text/create_text.c \
+    ../../../lab7/text/cursors.c \
+    ../../../lab7/text/delete_line.c \
+    ../../../lab7/text/i.c \
+    ../../../lab7/text/j.c \
+    ../../../lab7/text/mcb.c \
+    ../../../lab7/text/mp.c \
+    ../../../lab7/text/mplb.c \
+    ../../../lab7/text/mwbb.c \
+    ../../../lab7/text/pp.c \
+    ../../../lab7/text/process_backward.c \
+    ../../../lab7/text/process_even_odd.c \
+    ../../../lab7/text/process_forward.c \
+    ../../../lab7/text/process_forward2.c \
+    ../../../lab7/text/process_forward_extra_option.c \
+    ../../../lab7/text/r1ne.c \
+    ../../../lab7/text/randomic.c \
+    ../../../lab7/text/rc.c \
+    ../../../lab7/text/remove_all.c \
+    ../../../lab7/text/rt.c \
+    ../../../lab7/text/tracer.c \
+    ../../../lab7/text/y.c \
+    ../../../lab7/load.c \
+    ../../../lab7/mle.c \
+    ../../../lab7/move_cursor.c \
+    ../../../lab7/mpweb.c \
+    ../../../lab7/paste.c \
+    ../../../lab7/rn.c \
+    ../../../lab7/save.c \
+    ../../../lab7/show.c \
+    ../../../lab7/showlastnonspace.c \
+    ../../../lab7/showlengths.c \
+    ../../../lab7/shownonempty.c \
+    ../../../lab7/shownum.c \
+    ../../../lab7/showodd.c \
+    ../../../lab7/showrev.c \
+    ../../../lab7/showreveven.c \
+    ../../../lab7/showunderscores.c \
+    ../../../lab7/showupfirst.c \
+    ../../../lab7/showwordbeginnings.c
 
 INCLUDEPATH += ../app
