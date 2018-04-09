@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <string.h>
+#include <assert.h>
+#include "common.h"
+#include "text/text.h"
+
+int mle(text txt){
+    node* line = line_return(txt);
+    printf("WEHAPPY/n");
+    return 1;
+}
