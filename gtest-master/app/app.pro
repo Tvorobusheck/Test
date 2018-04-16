@@ -3,56 +3,56 @@ CONFIG += console
 CONFIG -= app_bundle
 CONFIG -= qt
 
-SOURCES +=    ../../../lab7/text/append_line.c \
-    ../../../lab7/text/cd.c \
-    ../../../lab7/text/create_text.c \
-    ../../../lab7/text/cursors.c \
-    ../../../lab7/text/delete_line.c \
-    ../../../lab7/text/i.c \
-    ../../../lab7/text/j.c \
-    ../../../lab7/text/mcb.c \
-    ../../../lab7/text/mp.c \
-    ../../../lab7/text/mplb.c \
-    ../../../lab7/text/mwbb.c \
-    ../../../lab7/text/pp.c \
-    ../../../lab7/text/process_backward.c \
-    ../../../lab7/text/process_even_odd.c \
-    ../../../lab7/text/process_forward.c \
-    ../../../lab7/text/process_forward2.c \
-    ../../../lab7/text/process_forward_extra_option.c \
-    ../../../lab7/text/r1ne.c \
-    ../../../lab7/text/randomic.c \
-    ../../../lab7/text/rc.c \
-    ../../../lab7/text/remove_all.c \
-    ../../../lab7/text/rt.c \
-    ../../../lab7/text/tracer.c \
-    ../../../lab7/text/y.c \
-    ../../../lab7/editor.c \
-    ../../../lab7/load.c \
-    ../../../lab7/mle.c \
-    ../../../lab7/move_cursor.c \
-    ../../../lab7/mpweb.c \
-    ../../../lab7/paste.c \
-    ../../../lab7/rn.c \
-    ../../../lab7/save.c \
-    ../../../lab7/show.c \
-    ../../../lab7/showlastnonspace.c \
-    ../../../lab7/showlengths.c \
-    ../../../lab7/shownonempty.c \
-    ../../../lab7/shownum.c \
-    ../../../lab7/showodd.c \
-    ../../../lab7/showrev.c \
-    ../../../lab7/showreveven.c \
-    ../../../lab7/showunderscores.c \
-    ../../../lab7/showupfirst.c \
-    ../../../lab7/showwordbeginnings.c \
+SOURCES +=    ../../text/append_line.c \
+    ../../text/cd.c \
+    ../../text/create_text.c \
+    ../../text/cursors.c \
+    ../../text/delete_line.c \
+    ../../text/i.c \
+    ../../text/j.c \
+    ../../text/mcb.c \
+    ../../text/mp.c \
+    ../../text/mplb.c \
+    ../../text/mwbb.c \
+    ../../text/pp.c \
+    ../../text/process_backward.c \
+    ../../text/process_even_odd.c \
+    ../../text/process_forward.c \
+    ../../text/process_forward2.c \
+    ../../text/process_forward_extra_option.c \
+    ../../text/r1ne.c \
+    ../../text/randomic.c \
+    ../../text/rc.c \
+    ../../text/remove_all.c \
+    ../../text/rt.c \
+    ../../text/tracer.c \
+    ../../text/y.c \
+    ../../editor.c \
+    ../../load.c \
+    ../../mle.c \
+    ../../move_cursor.c \
+    ../../mpweb.c \
+    ../../paste.c \
+    ../../rn.c \
+    ../../save.c \
+    ../../show.c \
+    ../../showlastnonspace.c \
+    ../../showlengths.c \
+    ../../shownonempty.c \
+    ../../shownum.c \
+    ../../showodd.c \
+    ../../showrev.c \
+    ../../showreveven.c \
+    ../../showunderscores.c \
+    ../../showupfirst.c \
+    ../../showwordbeginnings.c \
     myfunc.c
 
 HEADERS += \
     myfunc.h \
-    ../../../lab7/text/_text.h \
-    ../../../lab7/text/text.h \
-    ../../../lab7/common.h
+    ../../text/_text.h \
+    ../../text/text.h \
+    ../../common.h
 
 QMAKE_CFLAGS += -Wall -Wextra -Werror
 
@@ -61,4 +61,4 @@ QMAKE_CFLAGS += -fprofile-arcs -ftest-coverage
 LIBS += -lgcov
 
 DISTFILES += \
-    ../../../lab7/text/libtext.a
+    ../../text/libtext.a
