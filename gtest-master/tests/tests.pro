@@ -16,53 +16,53 @@ LIBS += -lgcov
 
 
 HEADERS +=  \
-    ../../text/_text.h \
-    ../../text/text.h \
-    ../../common.h \
+    ../app/text/_text.h \
+    ../app/text/text.h \
+    ../app/common.h \
     fibonachi_test.h
 
 SOURCES +=        main.cpp \
-../../text/append_line.c \
-    ../../text/cd.c \
-    ../../text/create_text.c \
-    ../../text/cursors.c \
-    ../../text/delete_line.c \
-    ../../text/i.c \
-    ../../text/j.c \
-    ../../text/mcb.c \
-    ../../text/mp.c \
-    ../../text/mplb.c \
-    ../../text/mwbb.c \
-    ../../text/pp.c \
-    ../../text/process_backward.c \
-    ../../text/process_even_odd.c \
-    ../../text/process_forward.c \
-    ../../text/process_forward2.c \
-    ../../text/process_forward_extra_option.c \
-    ../../text/r1ne.c \
-    ../../text/randomic.c \
-    ../../text/rc.c \
-    ../../text/remove_all.c \
-    ../../text/rt.c \
-    ../../text/tracer.c \
-    ../../text/y.c \
-    ../../load.c \
-    ../../mle.c \
-    ../../move_cursor.c \
-    ../../mpweb.c \
-    ../../paste.c \
-    ../../rn.c \
-    ../../save.c \
-    ../../show.c \
-    ../../showlastnonspace.c \
-    ../../showlengths.c \
-    ../../shownonempty.c \
-    ../../shownum.c \
-    ../../showodd.c \
-    ../../showrev.c \
-    ../../showreveven.c \
-    ../../showunderscores.c \
-    ../../showupfirst.c \
-    ../../showwordbeginnings.c
+../app/text/append_line.c \
+    ../app/text/cd.c \
+    ../app/text/create_text.c \
+    ../app/text/cursors.c \
+    ../app/text/delete_line.c \
+    ../app/text/i.c \
+    ../app/text/j.c \
+    ../app/text/mcb.c \
+    ../app/text/mp.c \
+    ../app/text/mplb.c \
+    ../app/text/mwbb.c \
+    ../app/text/pp.c \
+    ../app/text/process_backward.c \
+    ../app/text/process_even_odd.c \
+    ../app/text/process_forward.c \
+    ../app/text/process_forward2.c \
+    ../app/text/process_forward_extra_option.c \
+    ../app/text/r1ne.c \
+    ../app/text/randomic.c \
+    ../app/text/rc.c \
+    ../app/text/remove_all.c \
+    ../app/text/rt.c \
+    ../app/text/tracer.c \
+    ../app/text/y.c \
+    ../app/load.c \
+    ../app/mle.c \
+    ../app/move_cursor.c \
+    ../app/mpweb.c \
+    ../app/paste.c \
+    ../app/rn.c \
+    ../app/save.c \
+    ../app/show.c \
+    ../app/showlastnonspace.c \
+    ../app/showlengths.c \
+    ../app/shownonempty.c \
+    ../app/shownum.c \
+    ../app/showodd.c \
+    ../app/showrev.c \
+    ../app/showreveven.c \
+    ../app/showunderscores.c \
+    ../app/showupfirst.c \
+    ../app/showwordbeginnings.c
 
 INCLUDEPATH += ../app

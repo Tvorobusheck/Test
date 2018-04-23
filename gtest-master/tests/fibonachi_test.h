@@ -6,21 +6,22 @@
 #include <stdio.h>
 using namespace std;
 extern "C" {
-    #include "../../../inf/task7/lab7/common.h"
-    #include "../../../inf/task7/lab7/text/_text.h"
+    #include "../app/common.h"
+    #include "../app/text/_text.h"
+    #include "../app/text/text.h"
 }
 
 TEST(revTest, num0) {
     FILE *o = stdout;
-    stdout = fopen("../../../inf/task7/lab7/Test/Output/TestRev0.txt", "w");
+    stdout = fopen("../app/Test/Output/TestRev0.txt", "w");
     text txt = create_text();
-    string path = "../../../inf/task7/lab7/Test/Copy/TestRev0.in";
+    string path = "../app/Test/Copy/TestRev0.in";
     load(txt, (char*)path.c_str());
     showrev(txt);
     fclose(stdout);
     stdout = o;
-    FILE *test = fopen("../../../inf/task7/lab7/Test/Copy/TestRev0.out", "r");
-    FILE *result = fopen("../../../inf/task7/lab7/Test/Output/TestRev0.txt", "r");
+    FILE *test = fopen("../app/Test/Copy/TestRev0.out", "r");
+    FILE *result = fopen("../app/Test/Output/TestRev0.txt", "r");
     char first;
     char second;
     if(test == NULL)
@@ -37,18 +38,17 @@ TEST(revTest, num0) {
     fclose(result);
     SUCCEED();
 }
-
 TEST(revTest, num1) {
     FILE *o = stdout;
-    stdout = fopen("../../../inf/task7/lab7/Test/Output/TestRev1.txt", "w");
+    stdout = fopen("../app/Test/Output/TestRev1.txt", "w");
     text txt = create_text();
-    string path = "../../../inf/task7/lab7/Test/Copy/TestRev1.in";
+    string path = "../app/Test/Copy/TestRev1.in";
     load(txt, (char*)path.c_str());
     showrev(txt);
     fclose(stdout);
     stdout = o;
-    FILE *test = fopen("../../../inf/task7/lab7/Test/Copy/TestRev1.out", "r");
-    FILE *result = fopen("../../../inf/task7/lab7/Test/Output/TestRev1.txt", "r");
+    FILE *test = fopen("../app/Test/Copy/TestRev1.out", "r");
+    FILE *result = fopen("../app/Test/Output/TestRev1.txt", "r");
     char first;
     char second;
     if(test == NULL)
@@ -68,15 +68,15 @@ TEST(revTest, num1) {
 
 TEST(revTest, num2) {
     FILE *o = stdout;
-    stdout = fopen("../../../inf/task7/lab7/Test/Output/TestRev2.txt", "w");
+    stdout = fopen("../app/Test/Output/TestRev2.txt", "w");
     text txt = create_text();
-    string path = "../../../inf/task7/lab7/Test/Copy/TestRev2.in";
+    string path = "../app/Test/Copy/TestRev2.in";
     load(txt, (char*)path.c_str());
     showrev(txt);
     fclose(stdout);
     stdout = o;
-    FILE *test = fopen("../../../inf/task7/lab7/Test/Copy/TestRev2.out", "r");
-    FILE *result = fopen("../../../inf/task7/lab7/Test/Output/TestRev2.txt", "r");
+    FILE *test = fopen("../app/Test/Copy/TestRev2.out", "r");
+    FILE *result = fopen("../app/Test/Output/TestRev2.txt", "r");
     char first;
     char second;
     if(test == NULL)
