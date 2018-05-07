@@ -65,4 +65,6 @@ SOURCES +=        main.cpp \
     ../app/showupfirst.c \
     ../app/showwordbeginnings.c
 
+DEFINES += SAMPLES_DIR=\\\"$$PWD\\\"
+
 INCLUDEPATH += ../app
