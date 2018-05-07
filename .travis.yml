@@ -6,6 +6,7 @@ before_install:
   - pip install --user cpp-coveralls
 
 script:
+  - cd gtest-master/
   - qmake
   - make
   - ./tests/tests
